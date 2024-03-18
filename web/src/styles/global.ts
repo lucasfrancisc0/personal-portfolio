@@ -12,7 +12,15 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+
+    background-color: ${props => props.theme.colors["black-100"]};
+
     -webkit-font-smoothing: antialised;
+  }
+
+  body, input, text-area, button {
+    font-family: ${props => props.theme["font-family"].default};
+
   }
 
 `;

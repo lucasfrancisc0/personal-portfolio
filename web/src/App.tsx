@@ -4,10 +4,8 @@ import { defaultTheme } from "./styles/theme/default";
 
 export function App(){
   return (
-    <div>
-      <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider theme={defaultTheme}>
       <GlobalStyle/>
-      </ThemeProvider>
-    </div>
+    </ThemeProvider>
   );
 };
